@@ -20,9 +20,9 @@ function Featured() {
       <div className="w-full px-10 md:px-20">
         <div className="cards w-full flex flex-col sm:flex-row gap-10 mt-10">
 
-          <motion.div  onHoverStart={()=>handleHover(0)} onHoverEnd={()=>handleHoverEnd(0)} className="cardContainer relative w-1/2 h-[70vh]">
+          <motion.div  onHoverStart={()=>handleHover(0)} onHoverEnd={()=>handleHoverEnd(0)} className="cardContainer relative w-full md:w-1/2 h-[70vh]">
 
-            <h1 className="absolute flex overflow-hidden right-0 top-1/2 translate-x-1/2 -translate-y-1/2 z-[9] text-9xl font-semibold leading-none tracking-tighter text-[#CDEA68]">
+            <h1 className="absolute hidden md:flex overflow-hidden right-0 top-1/2 translate-x-1/2 -translate-y-1/2 z-[9] text-9xl font-semibold leading-none tracking-tighter text-[#CDEA68]">
               {"FYDE".split("").map((item, index) => (
                 <motion.span 
                 initial={{y:"100%"}}
@@ -44,8 +44,8 @@ function Featured() {
             </div>
           </motion.div>
 
-          <motion.div onHoverStart={()=>handleHover(1)} onHoverEnd={()=>handleHoverEnd(1)} className="cardContainer relative w-1/2 h-[70vh] ">
-            <h1 className="absolute flex overflow-hidden right-full top-1/2 translate-x-1/2 -translate-y-1/2   text-9xl font-semibold leading-none tracking-tighter text-[#CDEA68]">
+          <motion.div onHoverStart={()=>handleHover(1)} onHoverEnd={()=>handleHoverEnd(1)} className="cardContainer relative w-full md:w-1/2 h-[70vh] ">
+            <h1 className="absolute hidden md:flex overflow-hidden right-full top-1/2 translate-x-1/2 -translate-y-1/2 text-9xl font-semibold leading-none tracking-tighter text-[#CDEA68]">
               {"TRAWA".split("").map((item, index) => (
                 <motion.span
                   initial={{y:"100%"}}

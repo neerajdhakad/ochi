@@ -8,7 +8,7 @@ function LandingPage() {
         {["We Create", "Eye Opening", "Presentations"].map((item, index) => {
           return (
             <div className="masker" key={index}>
-              <div className="w-fit flex items-end  overflow-hidden">
+              <div className="w-fit flex items-end overflow-hidden">
                 {index === 1 && (
                   <motion.div
                     initial={{ width: 0 }}
@@ -17,7 +17,7 @@ function LandingPage() {
                     className="w-[9vw] h-[5vw] mr-2 rounded-md bg-red-300 bg-cover bg-[url('https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg')]"
                   ></motion.div>
                 )}
-                <h1 className="uppercase text-[6vw] leading-[6vw] tracking-tighter font-['Verdana'] font-bold ">
+                <h1 className="uppercase text-3xl md:text-[6vw] leading-[8vw] md:leading-[6vw] tracking-tighter font-['Verdana'] font-bold ">
                   {item}
                 </h1>
               </div>
