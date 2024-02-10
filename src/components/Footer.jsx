@@ -46,7 +46,7 @@ function Footer() {
             <a className="block text-xl" href="#">Facebook</a>
             <a className="block text-xl" href="#">Instagram</a>
             <a className="block text-xl" href="#">Twitter</a>
-            {/* <a className="block text-xl" href="#">LinkedIn</a> */}
+            <a className="block text-xl" href="#">LinkedIn</a>
           </div>
       </div>
     </div>
