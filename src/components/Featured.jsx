@@ -22,7 +22,7 @@ function Featured() {
               />
             </div>
           </div>
-          <div className="cardContainer w-1/2 h-[70vh] ">
+          <div className="cardContainer relative w-1/2 h-[70vh] ">
             <h1 className="absolute right-full top-1/2 translate-x-1/2 -translate-y-1/2   text-9xl font-semibold leading-none tracking-tighter text-[#CDEA68]">
               {"VISE".split("").map((item, index) => (
                 <span key={index}>{item}</span>

@@ -21,8 +21,8 @@ function Eyes() {
     },[])
 
   return (
-    <div className=" eyes w-full h-screen overflow-hidden">
-      <div className="flex items-center justify-center w-full h-full bg-cover bg-center bg-[url('https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg')]">
+    <div className="eyes w-full h-screen overflow-hidden">
+      <div data-scroll data-scroll-speed="-.7" className="flex items-center justify-center w-full h-full bg-cover bg-center bg-[url('https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg')]">
         <div className="flex items-center justify-center just gap-10 md:px-8 h-64">
           <div className="flex items-center justify-center w-[15vw] h-[15vw]  bg-white rounded-full">
             <div className="relative bg-black w-2/3 h-2/3 text-2xl rounded-full ">

@@ -30,7 +30,7 @@ function Cards() {
               src="https://ochi.design/wp-content/uploads/2022/04/logo003.png"
               alt=""
             />
-            <button className="absolute px-5 py-2 left-5 md:left-10 bottom-2 md:bottom-10 border-2 rounded-full uppercase text-xs md:text-md">Buisiness Bootcamp Alumni</button>
+            <button className="absolute px-5 py-2 left-5 md:left-10 bottom-2 md:bottom-10 border-2 rounded-full uppercase text-xs md:text-md">Buisiness Bootcamp</button>
           </div>
         </div>
       </div>

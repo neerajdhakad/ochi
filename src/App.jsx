@@ -1,5 +1,6 @@
 import './App.css'
 import Navbar from './components/Navbar'
+import LocomotiveScroll from 'locomotive-scroll';
 import LandingPage from './components/LandingPage'
 import Markquee from './components/Marquee'
 import About from './components/About'
@@ -8,6 +9,8 @@ import Featured from './components/Featured'
 import Cards from './components/Cards'
 import Footer from './components/Footer'
 function App() {
+
+  const locomotiveScroll = new LocomotiveScroll();
 
   return (
     <>
