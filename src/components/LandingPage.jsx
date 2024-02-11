@@ -14,10 +14,10 @@ function LandingPage() {
                     initial={{ width: 0 }}
                     animate={{ width: "9vw" }}
                     transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }}
-                    className="w-[9vw] h-[5vw] mr-2 rounded-md bg-red-300 bg-cover bg-[url('https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg')]"
+                    className="w-[14vw] h-[7vw] md:w-[9vw] md:h-[5vw] mr-2 rounded-md bg-red-300 bg-cover bg-[url('https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg')]"
                   ></motion.div>
                 )}
-                <h1 className="uppercase text-3xl md:text-[6vw] leading-[8vw] md:leading-[6vw] tracking-tighter font-['Verdana'] font-bold ">
+                <h1 className="uppercase text-[8vw] md:text-[6vw] leading-[8vw] md:leading-[6vw] tracking-tighter font-['Verdana'] font-bold ">
                   {item}
                 </h1>
               </div>

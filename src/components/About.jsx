@@ -7,11 +7,11 @@ function About() {
         peo­ple.
       </h1>
 
-    <div className="flex flex-col md:flex-row w-full border-t-[1px] border-[#b5c481] mt-16">
+    <div className="flex flex-col md:flex-row w-full border-t-[1px] border-[#b5c481] mt-8 md:mt-16">
         <div className="w-full md:w-1/2">
-            <h1 className="text-4xl md:text-6xl pt-10">Our approach:
+            <h1 className="text-4xl md:text-6xl pt-5 md:pt-10">Our approach:
             </h1>
-            <button className="flex items-center justify-center gap-4 px-6 md:px-10 py-2 md:py-4 mt-6 bg-zinc-900 text-white rounded-full uppercase ">Read more
+            <button className="flex items-center justify-center gap-4 px-6 md:px-10 py-2 md:py-4 mt-6 bg-zinc-900 text-white rounded-full uppercase text-sm md:text-md">Read more
             <div className="w-3 h-3 rounded-full bg-[#fff]"></div>
             </button>
         </div>
