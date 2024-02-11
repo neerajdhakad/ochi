@@ -37,7 +37,7 @@ function Featured() {
             </h1>
             <div className="card w-full h-full rounded-xl overflow-hidden ">
               <img
-                className="h-full w-full bg-cover"
+                className="h-full w-full bg-cover bg-center bg-no-repeat"
                 src="https://ochi.design/wp-content/uploads/2023/10/Fyde_Illustration_Crypto_2-663x551.png"
                 alt=""
               />
@@ -60,7 +60,7 @@ function Featured() {
             </h1>
             <div className="card w-full h-full rounded-xl overflow-hidden">
               <img
-                className="h-full w-full bg-cover"
+                className="h-full w-full bg-cover bg-center bg-no-repeat"
                 src="https://ochi.design/wp-content/uploads/2023/08/Frame-3875-1326x1101.jpg"
                 alt=""
               />
